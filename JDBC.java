@@ -8,11 +8,11 @@ public class JDBC {
     //Consider printing result set in ~100 tuple blocks each headed with column labels
 
     static final String JDBC_DRIVER = "org.apache.derby.jdbc.ClientDriver";
-    static final String DB_URL = "jdbc:derby://localhost:1527/jdbcdb";
+    static final String DB_URL = "jdbc:derby://localhost:1527/<yourdatabasehere>";
 
     //  Database credentials
-    static final String USER = "helen";
-    static final String PASS = "pass";
+    static final String USER = "<user>";
+    static final String PASS = "<passwd>";
     public static void main(String[] args) {
         Connection conn = null;
         Statement stmt = null;
